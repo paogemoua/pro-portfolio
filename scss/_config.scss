@@ -1,5 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #f1f0ee; //#444 original color - #F6F5F3
+$secondary-color: #b11a21; //#eece1a original color - #7DCE94
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -16,7 +16,7 @@ $background-opacity: 0.9;
       background-size: cover;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         right: 0;
